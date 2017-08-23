@@ -1,6 +1,6 @@
 {
   "name": "stringify-parameters",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Stringifies function's parameters definition",
   "main": "./lib/stringify-parameters.js",
   "bin": "./bin/cli.js",
@@ -19,5 +19,14 @@
   },
   "devDependencies": {
     "mocha": "^3.5.0"
-  }
+  },
+  "keywords": [
+    "functions",
+    "function",
+    "parameters",
+    "parameter",
+    "string",
+    "stringify",
+    "stringified"
+  ]
 }
