@@ -15,11 +15,6 @@ npm install stringify-parameters
 npm install stringify-parameters -g
 ```
 
-**CLI via npx**
-```bash
-npx stringify-parameters
-```
-
 ## Usage
 
 `stringifyParameters(fn);`
