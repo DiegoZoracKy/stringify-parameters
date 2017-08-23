@@ -32,8 +32,6 @@ const stringifyParameters = require('stringify-parameters');
 // Just a function to test
 const testFunction = (a = "z", b = [1,2,3], c, {d,e: {f}, g} = {}) => console.log("noop");
 
-const result = stringifyParameters(testFunction);
-
 // `result` will be: 'a = "z, b = [1,2,3], c, {d,e: {f}, g} = {}'
-
+const result = stringifyParameters(testFunction);
 ```
