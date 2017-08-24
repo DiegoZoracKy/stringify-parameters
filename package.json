@@ -1,6 +1,6 @@
 {
   "name": "stringify-parameters",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Stringifies function's parameters definition",
   "main": "./lib/stringify-parameters.js",
   "bin": "./bin/cli.js",
