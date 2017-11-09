@@ -1,6 +1,6 @@
 {
   "name": "stringify-parameters",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Stringifies function's parameters definition",
   "main": "./lib/stringify-parameters.js",
   "bin": "./bin/cli.js",
@@ -14,7 +14,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "magicli": "0.0.5",
+    "magicli": "0.0.8",
     "unpack-string": "0.0.2"
   },
   "devDependencies": {

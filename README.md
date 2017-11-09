@@ -14,6 +14,9 @@ npm install stringify-parameters
 ```bash
 npm install stringify-parameters -g
 ```
+```bash
+npx stringify-parameters --help
+```
 
 ## Usage
 

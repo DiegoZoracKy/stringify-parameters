@@ -38,4 +38,6 @@ function splitSkip(str, separator, skipState) {
 	return result;
 }
 
-module.exports = splitSkip;
+if (typeof module !== 'undefined' && module.exports) {
+    module.exports = splitSkip;
+}
