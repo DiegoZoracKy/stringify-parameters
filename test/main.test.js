@@ -30,6 +30,11 @@ function getTestData(){
 			expectedResult: 'paramA, paramB, c'
 		},
 
+		asyncArrow: {
+			input: async (paramA, paramB, c) => console.log(a, b, c),
+			expectedResult: 'paramA, paramB, c'
+		},
+
 		arrowWithBraces: {
 			input: (a, b, c) => {
 				return console.log(a, b, c)
@@ -53,6 +58,20 @@ function getTestData(){
 
 		functionWithName: {
 			input: function withName(abc) {
+				console.log(abc)
+			},
+			expectedResult: 'abc'
+		},
+
+		asyncSimpleFunction: {
+			input: async function(a, b, c){
+				console.log(a, b, c)
+			},
+			expectedResult: 'a, b, c'
+		},
+
+		asyncFunctionWithName: {
+			input: async function withName(abc) {
 				console.log(abc)
 			},
 			expectedResult: 'abc'
